@@ -1,0 +1,28 @@
+--[[
+
+    the "Meteor texture loader" is given by my friend and no its not from the Meteor script.
+    i just used kavo-ui-library because yes
+    
+  
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Bedwars.exe", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Bedwars scripts")
+
+
+MainSection:NewButton("Vape", "Runs Vape", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+
+MainSection:NewButton("Meteor texture Loader", "Texture Loader", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/eLeCtRaDoMiNuS/milkwareclient/main/texture.lua%22))()
+end)
+
+
+MainSection:NewButton("Rektsky", "Rektsky Loader", function()
+    this loadstring(game:HttpGet("https://raw.githubusercontent.com/8pmX8/rektsky4roblox/main/mainscript.lua%22))()
+end)
